@@ -42,7 +42,7 @@ h1 {
     text-decoration: none;
     color: white;
     border: white solid 0.2rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .split.right, .split.left, .split.right::before, .split.left::before {
-    transition: all var(--speed) ease-in-out;
+    transition: all var(--speed) ease-in-out
 }
 
 .hover-left .left {
